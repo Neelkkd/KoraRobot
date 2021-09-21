@@ -49,7 +49,7 @@ I am a blank, I will be your partner and can help make your group great and attr
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-KORA_IMG = "https://telegra.ph/file/8fda57770ba246a91befe.jpg"
+KORA_IMG = "https://telegra.ph/file/72b97a096eb9b4b2201e1.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                    url="t.me/{}?startgroup=true".format(bot.username)),
                InlineKeyboardButton(
                              text="⚡️ Get Support",
-                             url=f"https://t.me/KoraSupport")
+                             url=f"https://t.me/shizuka_superbot_support")
                ]]))
 
     else:
