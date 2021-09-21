@@ -152,7 +152,7 @@ def start(bot: Bot, update: Update, args: List[str]):
                    url="t.me/{}?startgroup=true".format(bot.username)),
                InlineKeyboardButton(
                              text="⚡️ Get Support",
-                             url=f"https://t.me/shizuka_superbot_support")
+                             url=f"https://t.me/shizuka_bot_support")
                ]]))
 
     else:
